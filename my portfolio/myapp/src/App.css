@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+    @apply px-2;
+}
+.bg-header{
+    background: #456a7d;
+}
+.bg-body
+{
+    background-image: url("assets/R.png");
+     background-size: cover;
+     background-color: #f6f0c0;
+     background-repeat: no-repeat;
+     background-position: center;
+     
+}
+.bg-about{
+    @apply h-full;
+    background-image: url("assets/R 3.png");
+    background-size: cover;
+    background-color: #bfecef;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.bg-project{
+    @apply h-full;
+    background-image: url("assets/R 5.png");
+    background-size: cover;
+    background-color: #f5afe5;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.bg-resume{
+    @apply h-full;
+    background-image: url("assets/R 6.png");
+    background-size: cover;
+    background-color: #bfecef;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.bg-text{
+    color: #456a7d;
+}
+.bg-hover{
+    background-color: #afe1f5;
+}
+
+.mobile-nav{
+    @apply fixed top-14 left-0 bg-slate-400 w-full h-1/5;
+}
+.mobile-nav li{
+    @apply h-1/4 text-center border-b-2;
+}
+.btn{
+    @apply bg-purple-400 px-5 py-2 font-bold bottom-2 rounded border-2 hover:border-white;
+}
+.bg-footer{
+    background-color: coral;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
